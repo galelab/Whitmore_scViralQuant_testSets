@@ -15,20 +15,20 @@ cd sra_raw_data
 
 #Control 
 prefetch SRR13711613.1 -X 100000000
-# /share/tools/sratoolkit.2.10.4-centos_linux64/bin/fastq-dump SRR13711613.1 --split-files
+fastq-dump SRR13711613.1 --split-files
 wait
 
 #Co-cultured with SARS-CoV-2 for 1 day
 prefetch SRR13711614.1 -X 100000000
-# /share/tools/sratoolkit.2.10.4-centos_linux64/bin/fastq-dump SRR13711614.1 --split-files
+fastq-dump SRR13711614.1 --split-files
 wait
 
 #Co-cultured with SARS-CoV-2 for 2 days
 prefetch SRR13711615.1 -X 100000000
-# /share/tools/sratoolkit.2.10.4-centos_linux64/bin/fastq-dump SRR13711615.1 --split-files
+fastq-dump SRR13711615.1 --split-files
 wait
 
 #Co-cultured with SARS-CoV-2 for 3 days
 prefetch SRR13711616.1 -X 100000000
-# /share/tools/sratoolkit.2.10.4-centos_linux64/bin/fastq-dump SRR13711616.1 --split-files
+fastq-dump SRR13711616.1 --split-files
 wait

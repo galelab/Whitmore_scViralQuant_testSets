@@ -12,7 +12,7 @@
 #DESCRIPTION: human bronch cells, cellranger v6
 
 
-GENOME_DIR="/share/tools/10x/refdata-gex-GRCh38-2020-A/"
+GENOME_DIR="./refdata-gex-GRCh38-2020-A/"
 PATH_FASTQ="../sra_raw_data/"
 samples=("$PATH_FASTQ"*)
 
