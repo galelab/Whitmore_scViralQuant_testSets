@@ -12,19 +12,20 @@ mkdir sra_data
 cd sra_data
 
 #HIV INFECTED REP 1
-# prefetch SRR6825024.1 -X 100000000
-/share/tools/sratoolkit.2.10.4-centos_linux64/bin/fastq-dump SRR6825024.1 --split-files
+prefetch SRR6825024.1 -X 100000000
+fastq-dump SRR6825024.1 --split-files
 wait
 #HIV INFECTED REP 2
-# prefetch SRR6825025.1 -X 100000000
-/share/tools/sratoolkit.2.10.4-centos_linux64/bin/fastq-dump SRR6825025.1 --split-files
+prefetch SRR6825025.1 -X 100000000
+fastq-dump SRR6825025.1 --split-files
 wait
 
 #HIV UNINFECTED REP 1
-# prefetch SRR6825026.1 -X 100000000
-/share/tools/sratoolkit.2.10.4-centos_linux64/bin/fastq-dump SRR6825026.1 --split-files
+prefetch SRR6825026.1 -X 100000000
+fastq-dump SRR6825026.1 --split-files
 wait
+
 #HIV UNINFECTED REP 2
-# prefetch SRR6825027.1 -X 100000000
-/share/tools/sratoolkit.2.10.4-centos_linux64/bin/fastq-dump SRR6825027.1 --split-files
+prefetch SRR6825027.1 -X 100000000
+fastq-dump SRR6825027.1 --split-files
 wait

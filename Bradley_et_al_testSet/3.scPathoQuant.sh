@@ -1,6 +1,6 @@
 #!/bin/sh
 #Author Leanne  Whitmore 
-#Description run scViralQuant (download from here https://github.com/galelab/scViralQuant)
+#Description run scViralQuant (download from here https://github.com/galelab/scPathoQuant)
 
 PATH_FASTQ="./2.CellRanger_hg38/"
 samples=("$PATH_FASTQ"SRR6825*)
