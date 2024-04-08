@@ -14,15 +14,15 @@ cd sra_data
 
 #Hevere covid patient 1
 prefetch SRR11181956.1 -X 100000000
-./fastq-dump SRR11181956.1 --split-files
+fastq-dump SRR11181956.1 --split-files
 wait
 
 #Hevere covid patient 2
 prefetch SRR11181958.1 -X 100000000
-./fastq-dump SRR11181958.1 --split-files
+fastq-dump SRR11181958.1 --split-files
 
 #Hevere covid patient 3
 prefetch SRR11181959.1 -X 100000000
-./fastq-dump SRR11181959.1 --split-files
+fastq-dump SRR11181959.1 --split-files
 wait
 
